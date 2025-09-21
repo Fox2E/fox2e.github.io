@@ -53,3 +53,10 @@ h2 {
   opacity: 0.03; /* 97%透明 */
   z-index: -1;
 }
+
+
+.sidebar {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
