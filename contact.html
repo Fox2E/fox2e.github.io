@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ - Fox2E Studio</title>
+  <link rel="stylesheet" href="style.css?v=20260706">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="fox2e_logo.png" alt="Fox2E Studio">
+        <span>Fox2E&nbsp;Studio</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">会社概要</a>
+        <a href="research_patent.html">研究・特許</a>
+        <a href="stance.html">経営方針</a>
+        <a href="news.html">ニュース</a>
+        <a href="contact.html" class="active">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-title">
+    <div class="container">
+      <h1>お問い合わせ</h1>
+      <p>Contact</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <p class="muted" style="max-width:560px;">
+        特許やサービスに関するご相談など、下記フォームよりお気軽にお問い合わせください。
+      </p>
+      <form class="form" action="https://formspree.io/f/mrbannnn" method="POST">
+        <label>お名前
+          <input type="text" name="name" required>
+        </label>
+        <label>会社・組織名
+          <input type="text" name="organization" required>
+        </label>
+        <label>ご連絡先（メールまたは電話番号）
+          <input type="text" name="contact" required>
+        </label>
+        <label>お問い合わせ内容
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <button type="submit" class="btn">送信する</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-brand">Fox2E Studio</div>
+      <div>&copy; 2025 Fox2E Studio. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
